@@ -6,7 +6,7 @@ from rclpy.node import Node
 from nav_msgs.msg import OccupancyGrid, Odometry, Path
 from geometry_msgs.msg import PoseStamped, Quaternion
 
-from dublins_rrt_explorer.utils import DubinsSolver
+from dubins_rrt_explorer.utils import DubinsSolver
 
 class NodeRRT:
     def __init__(self, x, y, theta, parent=None, cost=0.0, edge_cost=0.0, path_x=None, path_y=None, path_yaw=None):

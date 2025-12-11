@@ -6,7 +6,7 @@ import tf_transformations
 from rclpy.node import Node
 from nav_msgs.msg import Odometry, Path
 from geometry_msgs.msg import TwistStamped
-from dublins_rrt_explorer.utils import normalize_angle
+from dubins_rrt_explorer.utils import normalize_angle
 
 class LQRController(Node):
     def __init__(self):

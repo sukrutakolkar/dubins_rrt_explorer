@@ -7,7 +7,7 @@ from launch.launch_description_sources import PythonLaunchDescriptionSource
 
 def generate_launch_description():
     
-    my_pkg = get_package_share_directory('dublins_rrt_explorer')
+    my_pkg = get_package_share_directory('dubins_rrt_explorer')
     slam_pkg = get_package_share_directory('slam_toolbox')
     config_file = os.path.join(my_pkg, 'config', 'slam_params.yaml')
 

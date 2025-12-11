@@ -28,11 +28,11 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'teleop_node = dublins_rrt_explorer.teleop_node:main',
-            'planner_node = dublins_rrt_explorer.planner_node:main',
-            'perception_node = dublins_rrt_explorer.perception_node:main',
-            'controller_node = dublins_rrt_explorer.controller_node:main',
-            'explorer_node = dublins_rrt_explorer.explorer_node:main',
+            'teleop_node = dubins_rrt_explorer.teleop_node:main',
+            'planner_node = dubins_rrt_explorer.planner_node:main',
+            'perception_node = dubins_rrt_explorer.perception_node:main',
+            'controller_node = dubins_rrt_explorer.controller_node:main',
+            'explorer_node = dubins_rrt_explorer.explorer_node:main',
         ],
     },
 )
